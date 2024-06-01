@@ -1,0 +1,55 @@
+.loginPage{
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 92.4vh;
+}
+
+.loginPage .form-row{
+    padding: 0 2% 0 2%;
+  width: 40%;
+}
+
+.loginPage .img-row{
+    width: 60%;
+  height: 100%;
+  background-image: url("../../Images/img4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.or-text {
+    padding: 0 10px;
+  }
+  
+  .line {
+    /* margin-top: 3%; */
+  flex-grow: 1;
+  height: 1px;
+  background-color: #000; /* Line color */
+  }
+
+  @media (max-width: 768px) {
+    .loginPage {
+      background-image: url("../../Images/img6.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      justify-content: center;
+      height: 100vh;
+    }
+  
+    .loginPage .img-row{
+      display: none;
+    }
+  
+    .loginPage .form-row{
+      backdrop-filter: blur(10px);
+      /* border: 2px solid red; */
+      border-radius: 5px;
+      color: white;
+      width: 85%;
+      
+    }
+  }

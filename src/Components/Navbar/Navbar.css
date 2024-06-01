@@ -1,0 +1,66 @@
+/* Navbar.css */
+
+/* Default styles for the navbar */
+.navbar {
+    background-color: black; /* Navbar background color */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;     
+  }
+  
+  .logo{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .links{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1.1rem;
+  }
+
+/* NavigationBar.css */
+
+/* Custom styling for the dropdown */
+.custom-dropdown {
+  left: auto; /* Reset the left position */
+  right: 0; /* Position to the right */
+  top: calc(100% + 8px); /* Position below the user icon with a slight offset */
+  background-color: #343a40; /* Dropdown background color */
+  border: none; /* Remove the border */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Add shadow */
+  z-index: 1000; /* Ensure it appears on top */
+  max-width: 200px; /* Set a maximum width for the dropdown */
+  overflow: hidden; /* Hide any overflowing content */
+}
+
+/* Style for dropdown items */
+.custom-dropdown .dropdown-item {
+  color: #ffffff;
+}
+
+/* Additional styling for hover/focus effects if needed */
+.custom-dropdown .dropdown-item:hover,
+.custom-dropdown .dropdown-item:focus {
+  background-color: #454d55; /* Hover color */
+}
+
+
+
+
+
+  
+  /* Styling the toggle button icon for smaller screens */
+  .navbar-toggler-icon {
+    background-color: #ffffff; /* Color of the hamburger icon */
+  }
+  
+  /* Media query for screens with a maximum width of 768px */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      margin-top: 10px; /* Adjust spacing for collapsed menu */
+    }
+  }
+  

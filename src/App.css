@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* ScrollBar.css */
+
+/* Track */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c52d2f; /* Color of the scrollbar handle */
+  border-radius: 6px; /* Rounded corners for the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a82729; /* Color change on hover */
+}
+
+/* Track background */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+}
+
+/* Handle on mouse-down */
+::-webkit-scrollbar-thumb:active {
+  background: #7f1d20; /* Color change when handle is clicked */
+}
+
+
+
+
+
+
