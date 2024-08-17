@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Sip-Share
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+**Sip-Share** is a web application that allows users to explore and discover various cocktail recipes. Users can search for cocktail recipes by ingredients or by the name of the cocktail. The app also includes user verification, ensuring a personalized and secure experience. Whether you're a cocktail enthusiast or a casual drinker, Sip-Share provides an easy way to find your next favorite drink.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Search by Ingredients**: Find cocktail recipes based on the ingredients you have on hand.
+- **Search by Name**: Look up specific cocktails by their name.
+- **User Verification**: Secure user authentication using Firebase to provide a personalized experience.
+- **Responsive Design**: Built with React and Bootstrap, ensuring the app looks great on all devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: React, Bootstrap
+- **Backend**: Firebase (for authentication and database)
+- **API**: CocktailDB API
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To set up the project locally, follow these steps:
 
-### `npm run build`
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/Viraj030/Sip-Share.git
+    cd Sip-Share
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install the required dependencies**:
+    ```bash
+    npm install
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Set up Firebase**:
+   - Create a Firebase project in your [Firebase Console](https://console.firebase.google.com/).
+   - Enable Authentication and Firestore Database.
+   - Add your Firebase configuration to a `.env` file in the root of the project:
+    ```
+    REACT_APP_FIREBASE_API_KEY=your_api_key
+    REACT_APP_FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
+    REACT_APP_FIREBASE_PROJECT_ID=your_project_id
+    REACT_APP_FIREBASE_STORAGE_BUCKET=your_project_id.appspot.com
+    REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+    REACT_APP_FIREBASE_APP_ID=your_app_id
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Run the application**:
+    ```bash
+    npm start
+    ```
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Search for Cocktails**: Use the search bar to find cocktails by name or ingredients.
+2. **User Authentication**: Sign up or log in to save your favorite recipes.
+3. **Explore Recipes**: Browse through the results to find detailed recipes for your chosen cocktails.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributors
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Viraj Asolkar** - [GitHub Profile](https://github.com/Viraj030)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contact
 
-## Learn More
+For any inquiries or support, please contact Viraj Asolkar at [virajasolkar0181@gmail.com](mailto:virajasolkar0181@gmail.com).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can customize this further if needed!
